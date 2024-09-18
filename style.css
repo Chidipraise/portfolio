@@ -62,6 +62,12 @@ body {
     font-weight: 700;
 }
 
+.container{
+    max-width: 1100px;
+    width: 100%;
+    background: rgb(0, 255, 255);
+    margin: auto;
+}
 .home {
     height: 100vh;
     display: flex;
@@ -317,4 +323,6 @@ body {
         font-size: 14px;
     }
 }
-
+.home .home-img img{
+    height: 400px;
+}
